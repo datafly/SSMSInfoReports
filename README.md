@@ -44,6 +44,6 @@ These reports are provided "as is". Even the risk is low, use with your producti
 Reports are linked to each other : 
 <p><img src="http://blog.datafly.pro/public/images/SSMSInfoReports/SSMSInfoReportDiagram.jpg" alt="Reports diagram" width="589" height="304" /></p>
 <h2>Release history</h2>
-<ul><li>6.3 : current release : bug fix with statistics report</liQ
+<ul><li>6.3 : current release : bug fix with statistics report</li>
   <li>6.2 : initial release on github</li></ul>
 (older releases were on codeplex.com)
