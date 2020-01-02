@@ -42,7 +42,7 @@ These reports are provided "as is". Even the risk is low, use with your producti
 <li>Job detailed report : detailed information, could also be run from a single job in SSMS </li>
 </ul>
 Reports are linked to each other : 
-<p><img src="http://blog.datafly.pro/public/images/SSMSInfoReports/SSMSInfoReportDiagram.jpg" alt="Reports diagram" width="589" height="304" /></p>
+<p><img src="http://blog.datafly.pro/public/images/SSMSInfoReports/SSMSInfoReportDiagram6.jpg" alt="Reports diagram" width="589" height="304" /></p>
 <h2>Release history</h2>
 <ul>
   <li>6.5 : current release : bug fixes, many improvements, SQL 2019 compatibility, new missing index report</li>
