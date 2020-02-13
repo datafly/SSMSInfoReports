@@ -45,7 +45,8 @@ Reports are linked to each other :
 <p><img src="http://blog.datafly.pro/public/images/SSMSInfoReports/SSMSInfoReportDiagram6.jpg" alt="Reports diagram" width="589" height="304" /></p>
 <h2>Release history</h2>
 <ul>
-  <li>6.5 : current release : bug fixes, many improvements, SQL 2019 compatibility, new missing index report</li>
-  <li>6.3 : bug fix with statistics report</li>
-  <li>6.2 : initial release on github</li></ul>
+  <li>6.5.2 : current release : bug fixes and improvements</li>
+  <li>6.5   : improvements, SQL 2019 compatibility, new missing index report</li>
+  <li>6.3   : bug fix with statistics report</li>
+  <li>6.2   : initial release on github</li></ul>
 (older releases were on codeplex.com)
