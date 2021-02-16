@@ -1,5 +1,5 @@
 # SSMSInfoReports
-<h3>SQL Server Management Studio (SSMS) Information Custom Reports</h3>
+<h3>SQL Server Management Studio (SSMS) Information Custom Reports (V7)</h3>
 
 This set of custom reports is intended to provide a quick overview of an instance and its databases. It is easier to answer the main questions that arise when you discover and diagnose a new server or database.
 
