@@ -21,11 +21,11 @@ You'll get various information, easy readable :
 TSQL scripts of these reports are coming from various sources : my own scripts and some other inspired by well known SQL Server experts.
 
 <h2>Installation and usage</h2>
-Copy the rdl files to a folder that is accessible to the SQL Server Management Studio client. Right-click on the SQL instance in object explorer, select "custom reports" and browse to the location of the rdl file.
+Copy the rdl files to a folder that is accessible to the SQL Server Management Studio client. Right-click on the SQL instance in object explorer, select "custom reports" and browse to the location of the rdl file. The main report is "Main Server Dashboard".
 
-The reports are intended to be used with SSMS 2012 and later (they don't work with earlier SSMS versions) but they can get information from instances from 2005 to 2017.
+The reports are intended to be used with SSMS 2012 and later (they don't work with earlier SSMS versions) but they can get information from instances from 2008 to 2019.
 
-Sysadmin rights are required to run the reports: dmv, ole automation and extended stored procedures are used to access all information, and temporary udf are created in databases.
+Sysadmin rights are required to run the reports: dmv, ole automation and extended stored procedures are used to access all information.
 
 These reports are provided "as is". Even the risk is low, use with your production servers is at your own risk.
 
@@ -45,8 +45,9 @@ These reports are provided "as is". Even the risk is low, use with your producti
 <li>Jobs history planning report : shows history of last 24 hours, new in V7 </li>
 <li>Job detailed report : detailed information, could also be run from a single job in SSMS </li>
 </ul>
-Reports are linked to each other : 
+Reports are linked to each other and the top report is "Main Server Dashboard.rdl" : 
 <p><img src="http://blog.datafly.pro/public/images/SSMSInfoReports/SSMSInfoReports_Diagram7.jpg" alt="Reports diagram" width="589" height="304" /></p>
+You can also use some reports in the context : database report with right click on a database, index report with right click on a table, ...
 <h2>Release history</h2>
 <ul>
   <li>7.0   : new reports added (AlwaysOn, Jobs planning history), improvements for all reports </li>
