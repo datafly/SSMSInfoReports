@@ -1,7 +1,7 @@
 # SSMSInfoReports
-<h3>SQL Server Management Studio (SSMS) Information Custom Reports (V8)</h3>
+<h3>SQL Server Management Studio (SSMS) Information Custom Reports (V9)</h3>
 <h4>New security information reports and general improvements in this version !<h4>
-This set of 15 custom reports is intended to provide a quick overview of an instance and its databases. It is easier to answer the main questions that arise when you discover and diagnose a new server or database.
+This set of 17 custom reports is intended to provide a quick overview of an instance and its databases. It is easier to answer the main questions that arise when you discover and diagnose a new server or database.
 
 Reports that come with SSMS installation are useful but they do not provide this kind of summary information. They also lack some advanced information that is accessible only through queries. One of the benefits of using reports rather than queries is their ability to be exported or printed.
 
@@ -26,7 +26,7 @@ Copy the rdl files to a folder that is accessible to the SQL Server Management S
 
 The reports are intended to be used with SSMS 2012 and later (they don't work with earlier SSMS versions) but they can get information from instances from 2008 to 2019.
 
-Sysadmin rights are required to run the reports: dmv, ole automation and extended stored procedures are used to access all information.
+Sysadmin rights are required to run the reports: dmv, xp_cmdshell and extended stored procedures are used to access all information.
 
 These reports are provided "as is". Even the risk is low, use with your production servers is at your own risk.
 
@@ -38,6 +38,8 @@ These reports are provided "as is". Even the risk is low, use with your producti
 <li>Always On Report : availability groups information, new in V7 </li>
 <li>All Databases Report.rdl : databases overview </li>
 <li>Server Performance.rdl : instance performance informations </li>
+<li>Resources per database.rdl : resources per database informations </li>
+<li>Locks-Deadlocks.rdl : lock waits and deadlocks information </li>
 <li>Database Report.rdl : general database information. Could also to be run from a database in object explorer. </li>
 <li>Database Security Report.rdl : database security information. Could also to be run from a database in object explorer. </li>
 <li>Tables Report : tables informations. Could also to be run from a database in object explorer. </li>
@@ -53,8 +55,8 @@ Reports are linked to each other and the top report is "Main Server Dashboard.rd
 You can also use some reports in the context : database report with right click on a database, index report with right click on a table, ...
 <h2>Release history</h2>
 <ul>
-  <li>8.0   : new reports added (Server Security, Database Security), lot of improvements for all reports </li>
+  <li>9.0   : new report added (Locks-Deadlocks), huge number of improvements for all reports </li>
+  <li>8.0   : new reports added (Server Security, Database Security), improvements for all reports </li>
   <li>7.0   : new reports added (AlwaysOn, Jobs planning history), improvements for all reports </li>
-  <li>6.5.2 : precedent release </li>
 </ul>
 
