@@ -51,7 +51,7 @@ These reports are provided "as is". Even the risk is low, use with your producti
 <li>Job detailed report : detailed information, could also be run from a single job in SSMS </li>
 </ul>
 Reports are linked to each other and the top report is "Main Server Dashboard.rdl" : 
-<p><img src="http://blog.datafly.pro/public/images/SSMSInfoReports/SSMSInfoReports_Diagram8.jpg" alt="Reports diagram" width="570" height="480" /></p>
+<p><img src="http://blog.datafly.pro/public/images/SSMSInfoReports/SSMSInfoReports_Diagram9.jpg" alt="Reports diagram" width="570" height="480" /></p>
 You can also use some reports in the context : database report with right click on a database, index report with right click on a table, ...
 <h2>Release history</h2>
 <ul>
