@@ -56,6 +56,7 @@ Reports are linked to each other and the top report is "Main Server Dashboard.rd
 You can also use some reports in the context : database report with right click on a database, index report with right click on a table, ...
 <h2>Release history</h2>
 <ul>
+  <li>9.2   : new report added (Query Store), bug corrections and improvements </li> 
   <li>9.0   : new report added (Locks-Deadlocks), huge number of improvements for all reports </li>
   <li>8.0   : new reports added (Server Security, Database Security), improvements for all reports </li>
   <li>7.0   : new reports added (AlwaysOn, Jobs planning history), improvements for all reports </li>
