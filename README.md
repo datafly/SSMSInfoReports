@@ -1,7 +1,7 @@
 # SSMSInfoReports
 <h3>SQL Server Management Studio (SSMS) Information Custom Reports (V9.2)</h3>
 <h4>New Query Store report in this version !<h4>
-This set of 17 custom reports is intended to provide a quick overview of an instance and its databases. It is easier to answer the main questions that arise when you discover and diagnose a new server or database.
+This set of 18 custom reports is intended to provide a quick overview of an instance and its databases. It is easier to answer the main questions that arise when you discover and diagnose a new server or database.
 
 Reports that come with SSMS installation are useful but they do not provide this kind of summary information. They also lack some advanced information that is accessible only through queries. One of the benefits of using reports rather than queries is their ability to be exported or printed.
 
