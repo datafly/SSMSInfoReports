@@ -1,6 +1,6 @@
 # SSMSInfoReports
-<h3>SQL Server Management Studio (SSMS) Information Custom Reports (V9)</h3>
-<h4>New locks/deadlocks report and huge number of improvements in this version !<h4>
+<h3>SQL Server Management Studio (SSMS) Information Custom Reports (V9.2)</h3>
+<h4>New Query Store report in this version !<h4>
 This set of 17 custom reports is intended to provide a quick overview of an instance and its databases. It is easier to answer the main questions that arise when you discover and diagnose a new server or database.
 
 Reports that come with SSMS installation are useful but they do not provide this kind of summary information. They also lack some advanced information that is accessible only through queries. One of the benefits of using reports rather than queries is their ability to be exported or printed.
@@ -46,6 +46,7 @@ These reports are provided "as is". Even the risk is low, use with your producti
 <li>Index Report : index informations. Could also to be run from a database or a single table object in object explorer. </li>
 <li>Statistics Report : informations about columns and index statistics. Could also to be run from a database, a single table or a single statistic. </li>
 <li>Missing Index Report : show missing index, for one or for all databases </li>
+<li>Query Store Report (new) : show top 50 queries in the last 4 hours (for query store enabled databases)</li>
 <li>Jobs report : a dashboard for monitoring jobs execution and performance </li>
 <li>Jobs history planning report : shows history of last 24 hours, new in V7 </li>
 <li>Job detailed report : detailed information, could also be run from a single job in SSMS </li>
